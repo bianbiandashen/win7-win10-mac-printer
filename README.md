@@ -1,5 +1,7 @@
-![打印机流程图](https://github.com/user-attachments/assets/e7f7544f-77c4-42e5-8872-805711e89365)
+技术栈： Tauri VUE WEBSOKCET WIN7 WIN10 MAC  Print 打印协议（支持mac，win7
+，window10）
 
+![小红书电子面单端架构一期架构](https://github.com/user-attachments/assets/45fc03a7-477f-4a58-95e5-a17e63f3633b)
 
 
 
@@ -7,7 +9,7 @@
 ![image](https://github.com/user-attachments/assets/4f5e3536-6ab5-4437-82eb-a7edcdaa0867)
 
 
-技术栈： Tauri VUE WEBSOKCET WIN7 WIN10 MAC 
+
 
 前端Interface接口总结：
 
