@@ -1,7 +1,7 @@
 技术栈： Tauri VUE WEBSOKCET WIN7 WIN10 MAC  Print 打印协议（支持mac，win7
 ，window10）
 
-![小红书电子面单端架构一期架构 (1)](https://github.com/user-attachments/assets/2abf0e86-8969-4657-9521-1089699b6347)
+![电子面单端](https://github.com/user-attachments/assets/2abf0e86-8969-4657-9521-1089699b6347)
 
 
 
