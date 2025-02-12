@@ -1,0 +1,82 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "http://127.0.0.1:1388",
+    "distDir": "../webui/public"
+  },
+  "package": {
+    "productName": "xhs-electron-printer",
+    "version": "0.0.1"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "小红书电子面单打印",
+        "width": 1200,
+        "height": 600
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "allowlist": {
+      "all": false,
+      "fs": {
+        "all": true
+      },
+      "http": {
+        "all": true
+      },
+      "window": {
+        "all": true
+      },
+      "shell": {
+        "all": true
+      }
+    },
+    "bundle": {
+      "resources": [
+        "binaries/bin"
+      ],
+      "active": true,
+      "targets": [
+        "dmg",
+        "msi",
+        "nsis",
+        "updater"
+      ],
+      "identifier": "com.example.tauri-plugin-printer",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "macOS": {
+        "frameworks": [],
+        "license": "MIT",
+        "signingIdentity": "-"
+      },
+      "windows": {
+        "webviewInstallMode": {
+          "type": "embedBootstrapper",
+          "silent": true
+        }
+      }
+    },
+    "updater": {
+      "active": true,
+      "dialog": true,
+      "endpoints": [
+        "https://pc-infra.devops.sit.xiaohongshu.com/api/pc-infra/release?applicationId=electronic-print&localVersion=0.0.1&platform=win32&arch=x64&appType=tauri&flavor=squirrel"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDk5MzU2NDg3QTU4MjIxOUMKUldTY0lZS2xoMlExbVFncXgxc2x2ZGFSZUJzS0FNUnErWlhGY2VtcXNoMEk2Q1BqbDc3SzNvVi8K",
+      "windows": {
+        "installMode": "passive",
+        "installerArgs": []
+      }
+    }
+  }
+}
